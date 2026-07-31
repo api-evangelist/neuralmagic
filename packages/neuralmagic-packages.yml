@@ -1,0 +1,50 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/user/neuralmagic/
+note: >-
+  Neural Magic was acquired by Red Hat (completed January 2025). Its community
+  Python libraries were officially deprecated on 2026-06-02 and no longer receive
+  updates or support. They remain published on PyPI and are captured here as the
+  provider's first-party package surface. Neural Magic's ongoing engineering
+  effort is now upstream in the vLLM project under Red Hat.
+packages:
+  - language: python
+    registry: pypi
+    name: deepsparse
+    version: 1.9.0
+    url: https://pypi.org/project/deepsparse/
+    source: https://github.com/neuralmagic/deepsparse
+    install: pip install deepsparse
+    official: true
+    status: deprecated
+    summary: Sparsity-aware deep learning inference runtime offering GPU-class performance on CPUs, with APIs to integrate ML into applications.
+  - language: python
+    registry: pypi
+    name: sparseml
+    version: 1.9.0
+    url: https://pypi.org/project/sparseml/
+    source: https://github.com/neuralmagic/sparseml
+    install: pip install sparseml
+    official: true
+    status: deprecated
+    summary: Libraries for applying sparsification recipes to neural networks to enable faster and smaller models.
+  - language: python
+    registry: pypi
+    name: sparsezoo
+    version: 1.9.0
+    url: https://pypi.org/project/sparsezoo/
+    source: https://github.com/neuralmagic/sparsezoo
+    install: pip install sparsezoo
+    official: true
+    status: deprecated
+    summary: Neural network model repository for highly sparse and sparse-quantized models with matching sparsification recipes.
+  - language: python
+    registry: pypi
+    name: sparsify
+    version: 1.7.0
+    url: https://pypi.org/project/sparsify/
+    source: https://github.com/neuralmagic/sparsify
+    install: pip install sparsify
+    official: true
+    status: deprecated
+    summary: UI for automatically sparsifying neural networks and creating sparsification recipes for better inference performance and a smaller footprint.

@@ -1,22 +1,77 @@
 aid: neuralmagic
 name: NeuralMagic
-description: NeuralMagic is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Neural Magic was an AI software company that spun out of MIT in 2018 to build
+  high-performance deep learning inference software. Its flagship open-source
+  products were DeepSparse, a sparsity-aware inference runtime delivering
+  GPU-class performance on commodity CPUs, together with SparseML, SparseZoo, and
+  Sparsify for model compression, sparsification recipes, and a curated model
+  repository, plus nm-vllm, an enterprise LLM inference server for GPUs. Neural
+  Magic was a prolific contributor to the community vLLM project. The company was
+  acquired by Red Hat (agreement announced November 2024, completed January 2025)
+  and its engineering now advances vLLM and Red Hat AI. The community versions of
+  DeepSparse, SparseML, SparseZoo, and Sparsify were deprecated on 2026-06-02.
+  Neural Magic exposed no commercial REST API; its developer surface was a set of
+  first-party Python libraries published to PyPI and open source on GitHub.
 url: https://raw.githubusercontent.com/api-evangelist/neuralmagic/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/68670575?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Red Hat
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Inference
+- LLM
+- Model Compression
+- Open Source
+- Python
+- vLLM
+- Deep Learning
 apis: []
+common:
+- type: Packages
+  url: packages/neuralmagic-packages.yml
+  name: Neural Magic Python packages (deprecated)
+- type: SDKs
+  url: packages/neuralmagic-packages.yml
+  name: Neural Magic first-party Python libraries
+- type: GitHubOrganization
+  url: https://github.com/neuralmagic
+  name: Neural Magic on GitHub
+- type: Documentation
+  url: https://github.com/neuralmagic/docs
+  name: Neural Magic documentation (archived)
+- type: SourceCode
+  url: https://github.com/neuralmagic/deepsparse
+  name: DeepSparse source code
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
