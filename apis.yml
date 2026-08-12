@@ -50,6 +50,10 @@ tags:
 - Deep Learning
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/neuralmagic/deepsparse/issues
+- type: Releases
+  url: https://github.com/neuralmagic/deepsparse/releases
 - type: Packages
   url: packages/neuralmagic-packages.yml
   name: Neural Magic Python packages (deprecated)
